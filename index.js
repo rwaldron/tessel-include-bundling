@@ -27,8 +27,6 @@ var server = http.createServer(function(request, response) {
     response.writeHead(200, header);
     fstream.pipe(response);
   });
-
-  console.log(fs.readFileSync(path.join(__dirname, "node_modules/foo/package.json")));
 });
 
 server.listen(port, host);
