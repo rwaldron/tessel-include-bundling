@@ -1,0 +1,11 @@
+{
+  "name": "tessel-include-bundling",
+  "version": "0.0.0",
+  "description": "Tessel Include Files",
+  "main": "index.js",
+  "license": "MIT",
+  "readme": "",
+  "dependencies": {
+    "foo": "latest"
+  }
+}
